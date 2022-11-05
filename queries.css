@@ -1,0 +1,65 @@
+
+/* tab-land: from 0 to 1200px */
+@media only screen and (max-width: 75em) {
+   
+
+}
+
+
+/* tab-port: from 0 to 900px */
+@media only screen and (max-width: 56.25em) {
+
+
+}
+
+/* small phones: from 0 to 600px */
+@media only screen and (max-width: 31em) {
+    .hero{
+        top: 40%;
+       width: 90%;
+       padding: 0 1rem;
+       padding-top: 3rem;
+
+      
+    }
+
+    .heading h1{
+    font-size: 1.5rem;
+    }
+
+    .choose-image h2{
+        margin-bottom: 2rem;
+    }
+    .choose-image p{
+        margin-bottom: 3rem;
+     }
+
+    .choose-image .choose{
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer h3{
+        font-size: .8rem;
+    }
+
+    .footer p{
+        font-size: .8rem;
+    }
+
+    html,
+    body{
+	background-image: url(img/bg.png), radial-gradient(circle closest-side, #000 10%, #000 ); /*...linear-gradient(180deg, #ff4280 0%, #ff9c00 100%);..*/
+    background-image: center;
+    background-size: cover;
+
+	
+}
+}
+
+
+/* big-desktop: 1800px */
+@media only screen and (min-width: 112.5em) {
+
+
+}
